@@ -101,9 +101,9 @@ The 3W dataset contains time-series recordings from real oil wells (WELL), physi
 
 | Model | Accuracy |
 |-------|----------|
-| RandomForestClassifier | 0.519 |
-| HistGradientBoostingClassifier | 0.633 |
-| LogisticRegression | 0.655 |
+| RandomForestClassifier | 0.807 |
+| HistGradientBoostingClassifier | 0.76 |
+| LogisticRegression | 0.81 |
 
 > Note: Accuracy is a misleading metric here due to class imbalance. Macro recall is the primary evaluation metric — the cost of missing a real fault far outweighs the cost of a false alarm.
 
